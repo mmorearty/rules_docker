@@ -1,0 +1,27 @@
+{
+  "name": "rules_docker",
+  "version": "1.0.0",
+  "description": "Travis CI | Bazel CI :---: | :---: [![Build Status](https://travis-ci.org/bazelbuild/rules_docker.svg?branch=master)](https://travis-ci.org/bazelbuild/rules_docker) | [![Build status](https://badge.buildkite.com/693d7892250cfd44beea3cd95573388200935906a28cd3146d.svg)](https://buildkite.com/bazel/docker-rules-docker-postsubmit)",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "build": "bazel build //container/...",
+    "test": "bazel test //tests/container/scala/..."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bazelbuild/rules_docker.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bazelbuild/rules_docker/issues"
+  },
+  "homepage": "https://github.com/bazelbuild/rules_docker#readme",
+  "dependencies": {
+    "@bazel/bazelisk": "^1.5.0"
+  }
+}
